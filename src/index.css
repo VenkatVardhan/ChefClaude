@@ -6,6 +6,7 @@ body {
   margin: 0;
   background-color: #fafaf8;
   font-family: 'Inter', sans-serif;
+
 }
 
 header.header {
@@ -29,6 +30,7 @@ h1 {
   font-weight: 400;
   margin: 0;
 }
+
 
 main {
   padding: 30px 30px 10px;
@@ -101,6 +103,7 @@ main {
 .ingredients-list {
   margin-bottom: 48px;
 
+
 }
 
 .ingredients-list li {
@@ -108,4 +111,10 @@ main {
   line-height: 28px;
 
 
+}
+.ingredients-list-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items:flex-start ;
 }
