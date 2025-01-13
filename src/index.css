@@ -80,7 +80,7 @@ main {
 .get-recipe-container {
   display: flex;
   justify-content: space-between;
-  max-width: 583px;
+
   align-items: center;
   border-radius: 8px;
   background: #F0EFEB;
@@ -117,4 +117,19 @@ main {
   flex-direction: column;
   justify-content:center ;
   align-items:flex-start ;
+}
+
+
+
+
+.suggested-recipe-container {
+  color: #475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.suggested-recipe-container ul li,
+.suggested-recipe-container ol li {
+  margin-bottom: 8px;
 }
